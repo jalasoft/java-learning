@@ -1,0 +1,21 @@
+security:
+  auth:
+    ldap:
+      server: "ldap://localhost:10389/dc=springframework,dc=org"
+      userDnPattern: "uid={0},ou=people"
+      passwordAttribute: "userPassword"
+
+server:
+  port: 8090
+
+spring.security.oauth2.client.registration.google.client-id: "483225856246-tnurtdql99gcsbcn5l68u6lq97vdm5rg.apps.googleusercontent.com"
+spring.security.oauth2.client.registration.google.client-secret: "9MWLeRSeaznapPsAX7rIUtbl"
+
+spring.datasource.driver-class-name: "org.h2.Driver"
+spring.datasource.url: "jdbc:h2:file:/Users/honzales/my_db"
+
+
+#security.basic.enabled: false
+# spring.session.timeout.seconds: 5
+#spring.session.store-type: "jdbc"
+#spring.session.jdbc.initialize-schema: "always"

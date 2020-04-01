@@ -21,6 +21,7 @@
 		<module>netty-simple-server</module>
 		<module>odf-template-engine</module>
 		<module>spring</module>
+		<module>agent-prototyping</module>
 	</modules>
 
 	<build>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta th:name="_csrf" th:content="${_csrf.token}"/>
+    <meta th:name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <title>Hello application</title>
+
+    <link href="/webjars/bootstrap/4.1.0/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+</head>
+<body class="bg-dark">
+  <div class="container-fluid">
+      <nav class="navbar bg-primary navbar-dark">
+          <span class="navbar-text">Moje aplikace</span>
+
+          <div class="d-inline">
+          <button class="btn btn-success p-0">
+              <span class="align-middle pl-1" th:text="${name}"></span>
+              <img class="btn btn-success p-0 m-0" th:src="${pictureUrl}" width="37" height="37"/>
+          </button>
+          <a id="logout" class="btn btn-success" href="#">Logout</a>
+          </div>
+      </nav>
+  </div>
+  <script src="/webjars/bootstrap/4.1.0/js/bootstrap.js"></script>
+  <script src="/js/logic.js"></script>
+</body>
+</html>

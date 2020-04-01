@@ -15,7 +15,13 @@
 
 	<modules>
 		<module>spring-expression-language</module>
+		<module>google-oauth2-server</module>
 		<module>spring-oauth-client</module>
 		<module>spring-oauth-server</module>
+		<module>erstebank-pds2-client</module>
+		<module>oauth2-provider</module>
+		<module>oauth2-ws-client</module>
+		<module>simple-oauth2-client</module>
+		<module>spring-server</module>
 	</modules>
 </project>

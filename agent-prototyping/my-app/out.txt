@@ -1,0 +1,37 @@
+Pattern: ^cz\.jalasoft\..*$
+registruju org.springframework.boot.loader.LaunchedURLClassLoader@2d8e6db6
+Naloadoval jsem cz.jalasoft.app.Main
+Modifkuju main
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2019-07-30 08:40:31.069  INFO 10620 --- [           main] cz.jalasoft.app.Main                     : Starting Main on swdprahalx01.private.fio.cz with PID 10620 (/home/FIO_DOM/lastovicka/Workspaces/agent-prototyping/my-app/target/my-app-1.0-SNAPSHOT.jar started by lastovicka in /home/FIO_DOM/lastovicka/Workspaces/agent-prototyping/my-app)
+2019-07-30 08:40:31.074  INFO 10620 --- [           main] cz.jalasoft.app.Main                     : No active profile set, falling back to default profiles: default
+Naloadoval jsem cz.jalasoft.app.controller.MyController
+Modifkuju hello
+Naloadoval jsem cz.jalasoft.app.Main$$EnhancerBySpringCGLIB$$eb0b5e48
+2019-07-30 08:40:32.935  INFO 10620 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10002 (http)
+2019-07-30 08:40:32.969  INFO 10620 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-30 08:40:32.969  INFO 10620 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-30 08:40:33.079  INFO 10620 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-30 08:40:33.079  INFO 10620 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1920 ms
+2019-07-30 08:40:33.395  INFO 10620 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-30 08:40:33.746  INFO 10620 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10002 (http) with context path ''
+2019-07-30 08:40:33.749  INFO 10620 --- [           main] cz.jalasoft.app.Main                     : Started Main in 3.399 seconds (JVM running for 4.157)
+cz.jalasoft.app.Main.main_metered(...): 3669ms.
+
+2019-07-30 08:40:54.848  INFO 10620 --- [io-10002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-30 08:40:54.848  INFO 10620 --- [io-10002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-30 08:40:54.861  INFO 10620 --- [io-10002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+cz.jalasoft.app.controller.MyController.hello_metered(...): 500ms.
+
+cz.jalasoft.app.controller.MyController.hello_metered(...): 500ms.
+
+cz.jalasoft.app.controller.MyController.hello_metered(...): 500ms.
+
