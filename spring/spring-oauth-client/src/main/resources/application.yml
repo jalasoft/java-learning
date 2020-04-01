@@ -1,0 +1,45 @@
+server:
+  port: 8888
+  servlet:
+    session:
+      cookie:
+        name: MYSESSIONID
+
+logging.level.root: DEBUG
+
+#security:
+#  oauth2:
+#    client:
+#      clientId: "810af70f30bb1d011bb3"
+#      clientSecret: "e494253ff0603099efc03890d6082af3c9fe328c"
+#      accessTokenUri: "https://github.com/login/oauth/access_token"
+#      userAuthorizationUri: "https://github.com/login/oauth/authorize"
+#      clientAuthenticationScheme: "form"
+#    resource:
+#      userInfoUri: "https://api.github.com/user"
+#      preferTokenInfo: false
+
+security:
+  local:
+    clientId: "client1"
+    clientSecret: "pwd1"
+    accessTokenUri: "http://localhost:9999/oauth/token"
+    userAuthorizationUri: "http://localhost:9999/oauth/authorize"
+
+#  github:
+#    clientId: "483225856246-tnurtdql99gcsbcn5l68u6lq97vdm5rg.apps.googleusercontent.com"
+#    clientSecret: "9MWLeRSeaznapPsAX7rIUtbl"
+#    accessTokenUri: "https://www.googleapis.com/oauth2/v3/token"
+#    userAuthorizationUri: "https://accounts.google.com/o/oauth2/auth"
+#    scope:
+#      - "profile"
+    #scope: "profile"
+    #clientAuthenticationScheme: "form"
+    #preEstablishedRedirectUri: "http://localhost:8888/main"
+    #useCurrentUri: false
+#    user:
+#      userInfoUri: "https://www.googleapis.com/userinfo/v2/me"
+
+
+
+
