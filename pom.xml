@@ -17,12 +17,12 @@
 	<modules>
 		<module>apple-push-notification</module>
 		<module>rabbitmq</module>
-		<module>my-reactive</module>
 		<module>netty-simple-server</module>
 		<module>odf-template-engine</module>
 		<module>spring</module>
 		<module>agent-prototyping</module>
-	</modules>
+        <module>reactive</module>
+    </modules>
 
 	<build>
 		<plugins>
