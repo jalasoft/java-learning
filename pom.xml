@@ -22,7 +22,9 @@
 		<module>spring</module>
 		<module>agent-prototyping</module>
         <module>reactive</module>
-    </modules>
+		<module>concurrency</module>
+		<module>io</module>
+	</modules>
 
 	<build>
 		<plugins>
