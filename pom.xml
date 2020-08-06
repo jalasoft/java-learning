@@ -11,7 +11,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<jdk>11</jdk>
+		<jdk>14</jdk>
 	</properties>
 
 	<modules>
@@ -24,7 +24,11 @@
         <module>reactive</module>
 		<module>concurrency</module>
 		<module>io</module>
-	</modules>
+		<module>xdocreport-prototyping</module>
+        <module>pdf-font-cmap-decoder</module>
+        <module>opencv</module>
+        <module>dsa</module>
+    </modules>
 
 	<build>
 		<plugins>
