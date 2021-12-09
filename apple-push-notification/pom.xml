@@ -13,7 +13,7 @@
 	<artifactId>apple-push-notification</artifactId>
 
 	<properties>
-		<jackson>2.9.4</jackson>
+		<jackson>2.9.10.8</jackson>
 	</properties>
 
 	<dependencies>
